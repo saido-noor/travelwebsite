@@ -1,0 +1,191 @@
+body {
+
+  height: 20vh;
+  width: 100%;
+  overflow-x: hidden;
+    height: 10vh;
+    width: 100%;
+    overflow-x: hidden;
+    background: #F2F2F2;
+  }
+.container4{
+  padding-top: 70%;
+}
+
+.navbar-bg {
+    
+    float: right;
+  
+  }
+  header{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    height: 12vh;
+    
+  
+  }
+
+
+  
+  .navbar-bg ul {
+    list-style: none;
+    margin-right: 20%;
+  
+    margin-left: -20%;
+    text-decoration: none;
+  
+  }
+  
+  .navbar-bg ul li {
+    display: inline-block;
+    margin: 0 5px;
+  
+  }
+  
+  .navbar-bg ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .h1 {
+    color: #eb5f2d;
+    font-size: 10px;
+    padding-top: 0.4%;
+    margin-left: 8%;
+  }
+  .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    -webkit-transition: all 700ms ease-in;
+  }
+  
+  .panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+  }
+  
+  .panel.active {
+    flex: 5;
+  }
+  
+  .panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+  }
+  .container4{
+    display: flex;
+    padding-top: -0%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+
+
+  .about{
+    padding: 2%;
+}
+
+.about-heading::after{
+    content: "";
+    border-bottom: 3px solid black;
+    display: block;
+    width: 100%;
+}
+
+/* #########about wrapper styling############ */
+
+.about-wrapper{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* .about-wrapper .left{
+    float: left;
+    width: 50%;
+}
+
+.about-wrapper .left{
+    float: right;
+    width: 50%;
+} */
+
+.about-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about-wrapper li::before{
+    content: "\2713";
+    color: #eb5f2d;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+
+.counts{
+  margin-top: 3rem;
+}
+
+.count-item{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.count-item span{
+  color: #eb5f2d;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.count-item p{
+  font-weight: 700;
+  color: #555555;
+  font-size: 1.8rem;
+}
+
+.counts::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.banner{
+    margin-top: 3rem;
+    background: linear-gradient(25deg,#eb5f2d,#eb5f2d 50%);
+}
+
+.banner-content{
+    color: #fff;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.banner-text{
+    float: left;
+}
+
+
+
+.banner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
